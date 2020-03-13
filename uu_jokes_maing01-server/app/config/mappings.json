@@ -1,0 +1,56 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "init": {
+        "realization": "api/controllers/JokesMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "helloWorld": {
+        "realization": "api/controllers/HelloWorldController.helloWorld",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "jokes/create": {
+        "realization": "api/controllers/JokesController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "jokes/get": {
+        "realization": "api/controllers/JokesController.get",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "jokes/list": {
+        "realization": "api/controllers/JokesController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "jokes/setActive": {
+        "realization": "api/controllers/JokesController.setActive",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "category/create": {
+        "realization": "api/controllers/CategoryController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "jokes/listRemote": {
+        "realization": "api/controllers/JokesController.listRemote",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "jokes/update": {
+        "realization": "api/controllers/JokesController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      }
+    }
+  }
+}

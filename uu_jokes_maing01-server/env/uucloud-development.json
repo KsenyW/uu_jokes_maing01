@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "schemaSpecificationUri": "https://uuos9.plus4u.net/uu-bookkitg01-main/78462435-289fcd2e11d34f3e9b2184bedb236ded/book/page?code=uuSubAppInstanceDescriptor",
+  "uuSubApp": {
+    "code": "TGA.TRAINING30.MAING01",
+    "version": "1.0.0",
+    "name": "uuJokesMaing01",
+    "description": "",
+    "license": "License Commercial",
+    "asidRequired": true,
+    "awidCount": 1,
+    "resourcePoolUri": "ues:TGA-BT:TRAINING_AWE",
+    "uuAppNodeSetMap": {
+      "CMD": {
+        "nodeSize": "G1_S",
+        "nodeCount": {
+          "min": 1,
+          "max": 1
+        },
+        "appPackUri": "ues:TGA-BT:TGA.TRAINING30.MAING01/APPBOX-1.0.0:TGA.TRAINING30.MAING01/CMD-PACK",
+        "runtimeStack": "UU.APPG01/APPSERVER_NODEJS_STACK-1.3"
+      }
+    },
+    "uuAppObjectStoreMap": {
+      "OSID_1": {
+        "technology": "MongoDB-4.0",
+        "size": 0.25,
+        "backup": false,
+        "alias": "primary"
+      }
+    },
+    "uuAppBinaryStoreMap": {
+      "BSID_1": {
+        "size": 0.25,
+        "alias": "binary"
+      }
+    },
+    "uuConfigMap": {}
+  },
+  "uuSubAppInstance": {
+    "asid": "99211011ca784df9a5ce32eadb8a2139",
+    "asidOwner": "8548-3665-1",
+    "awidList": [
+      {
+        "awid": "b55cb2d07d2c4277884cff662c2bb7af",
+        "awidOwner": "8548-3665-1"
+      }
+    ],
+    "uuAppObjectStoreMap": {
+      "OSID_1": {
+        "osid": "0aca1a68bf5f4757b75ff7df64e31563"
+      }
+    },
+    "uuAppBinaryStoreMap": {
+      "BSID_1": {
+        "bsid": "177f566e5f7c411db1e9b27ec6bc12ba"
+      }
+    }
+  }
+}

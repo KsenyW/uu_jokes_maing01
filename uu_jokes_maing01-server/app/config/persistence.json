@@ -1,0 +1,20 @@
+{
+  "uuSubAppDataStore": {
+    "primary": {
+      "type": "uuAppObjectStore",
+      "realization": "MongoDB",
+      "schemaMap": {
+        "jokesMain": {
+          "realization": "dao/JokesMainMongo"
+        },
+        "jokes": {
+          "realization": "dao/JokesMongo",
+          "maxNoi": 1024
+        },
+        "category": {
+          "realization": "dao/CategoryMongo"
+        }
+      }
+    }
+  }
+}

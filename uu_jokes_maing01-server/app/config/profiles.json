@@ -1,0 +1,36 @@
+{
+  "{asid}": {
+    "profileList": ["AsidOwner"],
+    "permissionMap": {
+      "{asidOwner}": ["AsidOwner"]
+    },
+    "useCaseMap": {}
+  },
+  "*": {
+    "profileList": ["Authorities","Executives","AwidOwner","Public","Readers","PUBLIC"],
+    "useCaseMap": {
+      "init": ["AwidOwner"],
+      "helloWorld": ["Public"],
+      "jokes/create": ["Readers","Authorities"],
+      "jokes/get": ["Public"],
+      "jokes/list": ["Public"],
+      "defaultUve": ["Public"],
+      "jokes/setActive": ["Authorities"],
+      "category/create": ["Authorities"],
+      "uu-app-binarystore/createBinary": ["Public"],
+      "uu-app-binarystore/getBinary": ["Public"],
+      "uu-app-binarystore/getBinaryData": ["Public"],
+      "uu-app-binarystore/updateBinaryData": ["Public"],
+      "uu-app-binarystore/updateBinary": ["Public"],
+      "uu-app-binarystore/deleteBinary": ["Public"],
+      "uu-app-binarystore/listBinaries": ["Public"],
+      "uu-app-binarystore/getBinaryVersion": ["Public"],
+      "uu-app-binarystore/updateBinaryVersion": ["Public"],
+      "uu-app-binarystore/getBinaryVersionData": ["Public"],
+      "uu-app-binarystore/deleteBinaryVersion": ["Public"],
+      "uu-app-binarystore/listBinaryVersions": ["Public"],
+      "jokes/listRemote": ["Public"],
+      "jokes/update": ["Public"]
+    }
+  }
+}
